@@ -1,2 +1,7 @@
 [tool.uv.workspace]
 members = ["packages/*"]
+
+[tool.uv.sources]
+albatross = { workspace = true }
+bird-feeder = { workspace = true }
+seeds = { workspace = true }
